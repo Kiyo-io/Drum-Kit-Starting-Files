@@ -2,23 +2,17 @@ var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
 for (var i = 0; i < numberOfDrumButtons; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-
     var buttonInnerHTML = this.innerHTML;
 
-playSound(buttonInnerHTML)
-
+    playSound(buttonInnerHTML);
   });
 }
 
-
 document.addEventListener("keydown", function (event) {
-
   playSound(event.key);
-
 });
 
-function playSound(key){
-
+function playSound(key) {
   switch (key) {
     case "w":
       var tom1 = new Audio("sounds/tom-1.mp3");
@@ -65,9 +59,4 @@ function playSound(key){
     default:
       console.log(buttonInnerHTML);
   }
-});
-}
-
-
-
 }
