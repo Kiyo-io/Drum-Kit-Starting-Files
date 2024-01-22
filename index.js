@@ -18,32 +18,32 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
         break;
 
       case "s":
-        var tom2 = new Audio("sounds/tom-3.mp3");
-        tom2.play();
+        var tom3 = new Audio("sounds/tom-3.mp3");
+        tom3.play();
 
         break;
 
       case "d":
-        var tom2 = new Audio("sounds/tom-2.mp4");
-        tom2.play();
+        var tom4 = new Audio("sounds/tom-4.mp4");
+        tom4.play();
 
         break;
 
       case "j":
-        var tom2 = new Audio("sounds/crash.mp3");
-        tom2.play();
+        var crash = new Audio("sounds/crash.mp3");
+        crash.play();
 
         break;
 
       case "k":
-        var tom2 = new Audio("sounds/kick.mp3");
-        tom2.play();
+        var kick = new Audio("sounds/kick.mp3");
+        kick.play();
 
         break;
 
       case "l":
-        var tom2 = new Audio("sounds/snare.mp3");
-        tom2.play();
+        var snare = new Audio("sounds/snare.mp3");
+        snare.play();
 
         break;
 
