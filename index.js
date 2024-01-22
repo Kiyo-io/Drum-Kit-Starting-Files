@@ -16,8 +16,39 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
         tom2.play();
 
         break;
-      default:
+
+      case "s":
+        var tom2 = new Audio("sounds/tom-3.mp3");
+        tom2.play();
+
         break;
+
+      case "d":
+        var tom2 = new Audio("sounds/tom-2.mp4");
+        tom2.play();
+
+        break;
+
+      case "j":
+        var tom2 = new Audio("sounds/crash.mp3");
+        tom2.play();
+
+        break;
+
+      case "k":
+        var tom2 = new Audio("sounds/kick.mp3");
+        tom2.play();
+
+        break;
+
+      case "l":
+        var tom2 = new Audio("sounds/snare.mp3");
+        tom2.play();
+
+        break;
+
+      default:
+        console.log(buttonInnerHTML);
     }
   });
 }
